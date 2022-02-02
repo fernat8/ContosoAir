@@ -34,7 +34,7 @@ steps:
     azureResourceManagerConnection: 'Tailspin-Demo-Service-Connection'
     subscriptionId: '90765980-529c-468f-b40e-7eee08ef2bcd'
     action: 'Create Or Update Resource Group'
-    resourceGroupName: '$(resourcegroup)'
+    resourceGroupName: '$(resourcegroupname)'
     location: 'East US'
     templateLocation: 'Linked artifact'
     csmFile: '$(Pipeline.Workspace)/drop/Templates/azuredeploy.json'
